@@ -1,0 +1,378 @@
+/* Global */
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	overflow-x: hidden;
+	color: black;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Overrides */
+.nav-pills>li>a {
+	padding: 10px 42px;
+}
+
+.nav-pills>li>a:hover {
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.nav-pills>li>a:active{
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.nav-pills>li>a:focus {
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.form-control {
+	width: 50%;
+	display: inline-block;
+	padding: 2%;
+}
+
+.form-control:focus {
+	border: 3px solid  #fcdb00;
+}
+
+/* Anchors/General */
+ a,
+ a:focus {
+ 	color: black;
+ }
+
+ a:hover {
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+
+ section {
+ 	padding: 50px 0;
+ }
+
+/* Navigation */
+.main-navigation {
+	padding-top: 49px;
+	background-color: #fcdb00;
+	height: 100%;
+}
+
+.main-navigation #logo {
+  	float: left;
+  	width: 50%;
+}
+
+.main-navigation #logo h2 {
+  	font-weight: 700;
+  	font-size: 210%;
+  	letter-spacing: .3%;
+}
+
+.main-navigation #logo i {
+  	margin-right: 1.5%;
+}
+
+.main-navigation nav {
+	padding-top: 14px;
+	width: 100%
+}
+
+.main-navigation nav li {
+	font-weight: 600;
+	letter-spacing: .3%;
+	font-size: 140%;
+}
+
+/* Heading */
+section#heading {
+	background-color: #fcdb00;
+	padding-bottom: 80px;
+}
+
+section#heading #inspire {
+	margin-top: 110px;
+}
+
+section#heading #inspire header h2 {
+	font-weight: 700;
+	margin-bottom: 20px;
+	letter-spacing: .3%;
+	font-size: 240%;
+}
+
+section#heading #inspire header h4 {
+	margin-bottom: 10px;
+	color: #333;
+	font-size: 150%;
+}
+
+section#heading #inspire header p {
+	margin-bottom: 20px;
+	color: #444;
+	font-size: 120%;
+	width: 90%;
+}
+
+section#heading #inspire #download-icons {
+	margin-top: 40px;
+}
+
+section#heading #inspire #download-icons i {
+	margin: 0 1%;
+}
+
+section#heading #ipad {
+	margin-left: 25%;
+}
+
+section#heading #arrow-down {
+	text-align: center;
+	margin-top: 25px;
+}
+
+/* Features */
+section#features {
+	margin-top: 65px;
+}
+
+section#features header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section#features header h2 {
+	font-weight: 700;
+	letter-spacing: .3%;
+	margin-bottom: 20px;
+}
+
+section#features .feature-box {
+	margin-top: 75px;
+	text-align: center;
+	font-size: 120%;
+}
+
+section#features .feature-box .feature-icon {
+	display: inline-block;
+}
+
+section#features .feature-box p {
+	color: #444;
+}
+
+/* Contact */
+section#contact {
+	margin-top: 100px;
+	padding-top: 75px;
+	padding-bottom: 50px;
+	background: #000;
+	color: #fff;
+}
+
+section#contact header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+section#contact header h2 {
+	font-weight: 700;
+	letter-spacing: .3%;
+	margin-bottom: 20px;
+	color: #fcdb00;
+}
+
+section#contact header h4 {
+	letter-spacing: .3%;
+	margin-bottom: 20px;
+	color: #777;
+}
+
+section#contact .input-email {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section#contact #submit {
+	background: #fcdb00;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	padding: 14px 35px;
+	margin-left: .5%;
+	font-weight: 700;
+	transition: all ease-in .2s;
+}
+
+section#contact #submit:focus {
+	background: #fcdb00;
+	color: black;
+	border: none;
+	border-radius: 5px;
+	padding: 14px 35px;
+	margin-left: .5%;
+	font-weight: 700;
+	transition: all ease-in .03s;
+	outline: 0;
+}
+
+section#contact #submit:hover {
+	background: black;
+	color: white;
+	border: 1px #fcdb00 solid;
+}
+
+section#contact .social-icons {
+	text-align: center;
+	color: #fcdb00;
+	transition: all ease-in .2s;
+}
+
+section#contact .social-icons i {
+	margin-left: .5%;
+}
+
+section#contact #footer {
+	margin-top: 110px;
+}
+
+section#contact #footer .footer-item {
+	text-align: center;
+}
+
+section#contact #footer .footer-item ul li a{
+	font-size: 130%;
+}
+
+section#contact #footer .footer-item ul li a:hover{
+	color: #fcdb00;
+}
+
+section#contact a, a:focus {
+	color: white;
+}
+
+/* Media Queries */
+
+		/* Medium Devices, Desktops */
+		@media only screen and (max-width : 992px) {
+
+			.nav-pills>li>a {
+			    padding: 10px 15px;
+			}
+
+			/* Heading */
+			section#heading #inspire {
+				text-align: center;
+				margin-top: 60px;
+			}
+
+			section#heading #ipad {
+				margin-left: 23%;
+				margin-top: 30px;
+			}
+
+			section#heading #inspire header h2 {
+				font-weight: 700;
+				margin-bottom: 20px;
+				letter-spacing: .3%;
+				font-size: 250%;
+			}
+
+			section#heading #inspire header h4 {
+				margin-bottom: 20px;
+				color: #333;
+				font-size: 150%;
+			}
+
+			section#heading #inspire header p {
+				margin-bottom: 20px;
+				color: #444;
+				margin-left: 3%;
+				font-size: 120%;
+				width: 90%;
+			}
+
+			/* Features */
+			section#features header h2 {
+				font-weight: 700;
+				letter-spacing: .3%;
+				margin-bottom: 20px;
+				font-size: 300%;
+			}
+
+			section#features header h4 {
+				letter-spacing: .3%;
+				margin-bottom: 20px;
+				font-size: 140%;
+			}
+
+			section#features .feature-box {
+				margin-top: 75px;
+				text-align: center;
+				font-size: 145%;
+			}
+
+			/* Contact */
+			section#contact header h2 {
+				font-weight: 700;
+				letter-spacing: .3%;
+				margin-bottom: 20px;
+				font-size: 280%;
+				color: #fcdb00;
+			}
+
+			section#contact #footer {
+		    margin-top: 110px;
+		    margin-right: 5%;
+			}
+		}
+
+		@media only screen and (max-width : 689px) {
+			section#heading #ipad {
+				margin-left: 20%;
+				margin-top: 30px;
+			}
+		}
+
+		/* Small Devices, Tablets */
+		@media only screen and (max-width : 584px) {
+			.nav-pills>li>a {
+			    padding: 10px 4px;
+			}
+			section#heading #ipad {
+				margin-left: 14%;
+				margin-top: 30px;
+			}
+		}
+
+		/* Extra Small Devices, Phones */
+		@media only screen and (max-width : 540px) {
+			.nav-pills>li {
+					padding: 10px 4px;
+					display: none;
+			}
+			section#heading #ipad {
+				margin-left: 10%;
+				margin-top: 30px;
+			}
+
+			.main-navigation #logo  {
+				text-align: center;
+				width: 100%;
+				font-size: 150%;
+			}
+		}
+
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 491px) {
+			section#heading #ipad {
+				margin-left: 5%;
+				margin-top: 30px;
+			}
+		}
