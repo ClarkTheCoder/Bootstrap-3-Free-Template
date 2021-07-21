@@ -367,6 +367,9 @@ section#contact a, a:focus {
 				width: 100%;
 				font-size: 150%;
 			}
+			div#footer {
+				font-size: 1.2rem;
+			}
 		}
 
 		/* Custom, iPhone Retina */
@@ -374,5 +377,9 @@ section#contact a, a:focus {
 			section#heading #ipad {
 				margin-left: 5%;
 				margin-top: 30px;
+			}
+
+			div#footer {
+				display: none;
 			}
 		}
